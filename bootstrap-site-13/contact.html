@@ -1,0 +1,47 @@
+<head>
+    <link rel="stylesheet" href="css/stylecontact.css">
+    
+</head>
+<body>
+    <header>
+        <div class = "modifyheader">
+            <h1>Zelecloud</h1>
+            <nav>
+                <ul>
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h2>Contact Us!</h2>
+    <section id="contact">
+        <h3>Enter subject of message</h2>
+        <form>
+           <div>
+               <input type = "radio" id = "general-question" name="response-type" value="general-question">
+               <label for="general-question">General Question</label>
+           </div>
+           <div>
+               <input type = "radio" id = "feedback" name="response-type" value="feedback">
+               <label for="feedback">Feedback</label>
+           </div>
+           <div>
+               <input type = "radio" id = "business" name="response-type" value="business">
+               <label for="business">Business</label>
+           </div>
+           <div>
+               <textarea id="message" cols="30" rows="8">Insert text here.</textarea>
+           </div>
+           <div>
+               <input id="button" type="submit" value="Submit">
+           </div>
+        </form>
+    </section>
+</body>
+<footer>
+    <p>
+        Copyright © <script>document.write(new Date().getFullYear());</script>, Zelecloud
+    </p>
+</footer>
